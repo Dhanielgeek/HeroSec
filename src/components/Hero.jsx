@@ -10,7 +10,7 @@ const Hero = () => {
   const ImgArry = [img1, img2, img3, img4, img5, img6];
 
   return (
-    <div className="Hero_img w-full h-[50rem] bg-gradient-to-r bg-[#00000f] from-purple-500 via-pink-500 to-red-500 flex-col flex justify-center items-center">
+    <div className="Hero_img w-full h-[50rem] bg-gradient-to-r bg-[#00000f] flex-col flex justify-center items-center">
       <div className="w-[60%] h-[50%] flex justify-center space-y-8 items-center flex-col max-md:w-[90%]">
         <h2 className="text-6xl text-center font-bold text-white max-md:text-5xl bg-opacity-80">
           Power{" "}
@@ -37,8 +37,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="w-[60%] h-[20%] flex flex-col justify-around items-center max-md:w-[90%]">
-        <p className="text-slate-300 font-semibold text-sm text-center">
+      <div className="w-[60%] h-[20%] flex flex-col justify-around  items-center max-md:w-[90%]">
+        <p className="text-slate-300 py-2 font-semibold text-sm text-center">
           Scale works with Generative AI Companies, U.S Government Agencies,
           Enterprises & Startup
         </p>
